@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-GITHUB-PAGES-URL/sitemap.xml
+Sitemap: https://oiler81-dev.github.io/LAOSS-Website-Mockup/sitemap.xml
