@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Provider | LA Orthos</title>
+  <meta name="description" content="Modern orthopedic website for Los Angeles Orthopedic Surgery Specialists with providers, services, locations, and contact information.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="provider">
+<div id="site-chrome"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="container page-hero-shell">
+      <div class="page-hero-inner">
+        <div>
+          <div class="eyebrow" id="provider-category">Provider</div>
+          <h1 id="provider-name">Provider Name</h1>
+          <p id="provider-role">Provider role</p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.zocdoc.com/practice/los-angeles-orthopedic-surgery-specialists-86604?lock=true&isNewPatient=false&referrerType=widget">Request appointment</a>
+            <a class="btn btn-ghost" href="providers.html">Back to providers</a>
+          </div>
+        </div>
+        <div class="hero-side-card">
+          <strong>Why patients trust LA Orthos</strong>
+          <p>Provider pages should give enough clarity for a patient to feel confident making the next click. This one is structured to do exactly that.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container detail-grid">
+      <div class="detail-image">
+        <img id="provider-image" hidden alt="">
+        <div class="initials" id="provider-initials">KP</div>
+      </div>
+      <div class="detail-content">
+        <div class="card copy">
+          <h3>Overview</h3>
+          <p id="provider-bio"></p>
+          <p id="provider-philosophy"></p>
+        </div>
+        <div class="card">
+          <h3>Areas of focus</h3>
+          <ul class="list-bullets" id="provider-specialties"></ul>
+        </div>
+        <div class="card">
+          <h3>Where this provider may see patients</h3>
+          <ul class="list-bullets" id="provider-locations"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">You may also like</div>
+        <h2>More LA Orthos providers.</h2>
+      </div>
+      <div id="provider-more" class="grid-4"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/data.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>

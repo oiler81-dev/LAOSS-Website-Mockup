@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Contact | LA Orthos</title>
+  <meta name="description" content="Modern orthopedic website for Los Angeles Orthopedic Surgery Specialists with providers, services, locations, and contact information.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="contact">
+<div id="site-chrome"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="container page-hero-shell">
+      <div class="page-hero-bg"><img src="https://laorthos.com/wp-content/uploads/2025/02/thiV4LE.webp" alt=""></div>
+      <div class="page-hero-inner">
+        <div>
+          <div class="eyebrow">Contact</div>
+          <h1>Get help now.</h1>
+          <p>Are you in pain? Don’t wait any longer to receive the care you need. Call, book online, or use this page as the central contact hub.</p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">
+            <a class="btn btn-dark" href="tel:3232647600">Call 323-264-7600</a>
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.zocdoc.com/practice/los-angeles-orthopedic-surgery-specialists-86604?lock=true&isNewPatient=false&referrerType=widget">Request appointment</a>
+          </div>
+        </div>
+        <div class="hero-side-card">
+          <div class="notice">For a live production rollout, wire this page to your preferred intake form or use the existing Zocdoc booking link.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container split">
+      <form class="panel">
+        <h3>Quick contact form</h3>
+        <div class="field-row">
+          <label><span>Name</span><input type="text" placeholder="Your name"></label>
+          <label><span>Phone</span><input type="tel" placeholder="(555) 555-5555"></label>
+        </div>
+        <div class="field-row">
+          <label><span>Email</span><input type="email" placeholder="you@email.com"></label>
+          <label><span>Location</span>
+            <select><option>Choose location</option><option>East Los Angeles</option><option>Wilshire</option><option>Santa Fe Springs</option><option>Tarzana</option><option>Encino</option><option>Valencia</option><option>Glendale</option><option>Thousand Oaks</option></select>
+          </label>
+        </div>
+        <label><span>Message</span><textarea rows="5" placeholder="Tell us what hurts or what you need help with"></textarea></label>
+        <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
+          <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.zocdoc.com/practice/los-angeles-orthopedic-surgery-specialists-86604?lock=true&isNewPatient=false&referrerType=widget">Request appointment</a>
+        </div>
+      </form>
+      <div class="panel">
+        <h3>All locations</h3>
+        <div id="all-locations-mini" class="list"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/data.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
